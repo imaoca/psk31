@@ -24,10 +24,10 @@ for j in range(waveFile.getnframes()):
 waveFile.close()
 ~~~
 ## Sample sound file
-should be convet to wave format.<p>
+should be convet to wave format.
 The input audio file should have a sampling rate of 8000 Hz and a quantization bit rate of unsigned 8 bits.<p>
 https://en.wikipedia.org/wiki/File:PSK31_sample.ogg<p>
-it is from wikipedia of psk31<p>
+it is from wikipedia of psk31. If you decode it, it becomes "Welcome to Wikipedia, the free encyclopedia that anyone can edit." 
       
 ## Parameters
 Some parameters in the source code need to be modified according to the audio file to be input. 
