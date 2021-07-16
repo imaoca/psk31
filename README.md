@@ -1,6 +1,6 @@
-# Demodulation Psk31 in Python
+# Demodulation PSK31 in Python
 This is a Python program to demodulate the psk31 known as QPSK modulation.
-This is the simplest example, and only the Terminal Unit part of the psk31 is implemented. See also https://en.wikipedia.org/wiki/PSK31#Common_frequencies
+This is the simplest example, and only the Terminal Unit part of the psk31 is implemented. See also https://en.wikipedia.org/wiki/PSK31
 
 
 ## Source code
