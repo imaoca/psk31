@@ -46,7 +46,7 @@ This figure shows the spectral distribution of a sample sound file. There is a p
 
 ![](2021-07-17.png)
       
-## Assigning values to the complex plane
+## Complex Number Plane and Value Assignment
 Modify this line if you want to change the value assignment for the complex plane.      
 ~~~
 print(int(sum(q)>0),int(sum(i)>0),sep=",")
