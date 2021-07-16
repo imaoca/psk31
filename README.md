@@ -12,7 +12,7 @@ import numpy as np
 fname='psk31_sample8k.wav'  # should be specify the filename.
 smp= 8000           # Sampling Rate
 FQ= smp/1000.0      # Signal Frequency 
-wind= 40            # windows
+wind= 40            # window
 waveFile = wave.open(fname, 'r')
 q=[];i=[]
 for j in range(waveFile.getnframes()):
@@ -42,12 +42,14 @@ should be specify the filename.
 Sampling Rate.
 - FQ
 Signal Frequency. This sound example should be 1000.0.     
-
+This figure shows the spectral distribution of a sample sound file. There is a peak around 1000Hz.
+![](2021-07-17.png)
+      
 ## Usage
 Please specify an appropriate audio file for the input.
 This program assumes 8KHz sampling, mono, 8bit quantization, and no sign.
 ~~~
-python rtty8k.py > rtty.csv
+ python psk31.py > psk31_sample8k.csv
 ~~~
 Demodulation example
 ![](2021-07-16.png)
