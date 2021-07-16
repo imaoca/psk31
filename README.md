@@ -43,8 +43,14 @@ Sampling Rate.
 - FQ
 Signal Frequency. This sound example should be 1000.0.     
 This figure shows the spectral distribution of a sample sound file. There is a peak around 1000Hz.
+
 ![](2021-07-17.png)
       
+## Assigning values to the complex plane
+Modify this line if you want to change the value assignment for the complex plane.      
+~~~
+print(int(sum(q)>0),int(sum(i)>0),sep=",")
+~~~      
 ## Usage
 Please specify an appropriate audio file for the input.
 This program assumes 8KHz sampling, mono, 8bit quantization, and no sign.
